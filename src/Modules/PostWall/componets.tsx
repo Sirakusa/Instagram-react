@@ -25,12 +25,12 @@ import {
 import { lessMore, modal } from "./styles";
 
 // Hooks
-import { useLikes } from "./Hooks/FocusComment";
-import { useButtonState } from "./Hooks/ButtonState";
-import { useMenu } from "./Hooks/Menu";
-import { useEmojis } from "./Hooks/Emojis";
-import { useRead } from "./Hooks/Read";
-import { useModal } from "./Hooks/Modal";
+import { useLikes } from "../../Hooks/FocusComment";
+import { useButtonState } from "../../Hooks/ButtonState";
+import { useMenu } from "../../Hooks/Menu";
+import { useEmojis } from "../../Hooks/Emojis";
+import { useRead } from "../../Hooks/Read";
+import { useModal } from "../../Hooks/Modal";
 
 export function ReadMoreLess(description: string) {
   const { toggleReadMoreLess, arrayMatch, isShowMore } = useRead();
